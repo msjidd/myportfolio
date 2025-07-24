@@ -1,0 +1,39 @@
+.primary-button {
+    background: #e4dfdf;
+    color: #2E2E2E;
+    border: 1px solid #5e5d5d;
+    padding: 18px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 18%;
+
+  }
+  
+  .primary-button:hover {
+    background: #47a04d;
+    transform: scale(1.09);
+    transition: all ease 0.5s;
+    color: #F0F0F0;
+  }
+  
+  .secondary-button {
+    background:#47a04d;
+    color: #ffffff;
+    border: 1px solid #5e5d5d;
+    padding: 18px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: auto;
+   
+
+  }
+  
+  
+  .secondary-button:hover {
+    background: #F0F0F0;
+    transform: scale(1.09);
+    transition: all ease 0.5s;
+    color: #252525;
+  }
