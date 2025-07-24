@@ -1,7 +1,7 @@
 #service-1 {
   
     height: 100%;
-    background: rgb(241, 241, 241);
+    background: rgb(225, 236, 221);
     padding: 72px 20px;
     gap: 32px;
     display: flex;
@@ -27,12 +27,11 @@
  }
   .service-heading {
     text-align: center;
-    margin-top: 10%;
   }
   .service-heading h2 {
-    font-size: 30px;
+    font-size: 50px;
     color: #2E2E2E;
-    margin-top: 10%;
+    margin-top: 8%;
   }
   
   .service-container {
