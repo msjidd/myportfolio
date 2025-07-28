@@ -1,0 +1,49 @@
+.hero-content h1 span {
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke:.7px #7cf03d;
+    animation: display-text 11s linear infinite;
+    animation-delay: calc(-4s * var(--i));
+    position: relative;
+    color: black;
+}
+
+@keyframes display-text {
+    25%,100%{
+        display: none;
+
+    }
+}
+
+.hero-content h1 span:before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color:#7cf03d;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+    
+}
+
+@keyframes fill-text {
+    10%,100% {
+       width: 0;
+     }
+     70%,90% {
+         width:100%;
+     }
+ }
+
+
+ .hero-content h1 span {
+    text-align: center;
+    margin-top: 20px;
+    
+ }
+ .hero-content h2 {
+    font-size: 32px;
+    margin-top: -10px;
+
+}

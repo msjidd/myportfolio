@@ -1,0 +1,84 @@
+#hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    padding: 72px 24px;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.3s;
+    gap: 80px;
+    font-family: 'Times New Roman', Times, serif; */
+
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin-top: 6%;
+    margin-left:7%;
+  }
+  .jade {
+    text-align: center;
+    top: 20%;
+    
+   
+  }
+  .hero-content h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+.hero-content h3 {
+  font-size: 20px;
+  text-align: center;
+}
+  .hero-content p {
+    text-align: justify;
+    text-indent:10%;
+    font-size: 23px;
+    margin-top: 1%;
+    color: #2E2E2E;
+
+
+    
+  }
+  .hero-image {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .hero-image img {
+    width: 35%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top:30%;
+    right:10%;
+  }
+  
+  .hero-content .btn-group {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top:85%;
+    left: 12%;
+  }
+
+.welcome {
+  display: flex;
+  margin-left: 60px;
+}
